@@ -1,6 +1,7 @@
 ---
 layout: post
 title: disk usage in postgres
+categories: postgres
 ---
 To map out disk usage of tables in postgres run the following query:
 
