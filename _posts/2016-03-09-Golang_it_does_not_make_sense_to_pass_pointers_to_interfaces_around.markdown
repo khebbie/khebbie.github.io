@@ -4,7 +4,7 @@ title:  "In golang it does not make sense to pass pointers to interfaces around"
 date:   2016-03-10 10:06:21 +0100
 categories: awk
 ---
-In go if you have a method that takes an interface like so:
+In go if you have a function that takes an interface like so:
 {% highlight Go %}
 func myFunction(reader io.Reader){
   // your implementation here
