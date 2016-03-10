@@ -5,16 +5,16 @@ date:   2016-03-10 10:06:21 +0100
 categories: awk
 ---
 In go if you have a method that takes an interface like so:
-{% highlight go %}
+{% highlight Go %}
 func myFunction(reader io.Reader){
-// your implementation here
+  // your implementation here
 }
 {% endhighlight %}
 
 You can not send a pointer to the interface from another function:
-{% highlight go %}
+{% highlight Go %}
 func myOtherFunction(reader io.Reader){
-myFunction(&reader) // <-- This is illegal.
+  myFunction(&reader) // <-- This is illegal.
 }
 {% endhighlight %}
 
