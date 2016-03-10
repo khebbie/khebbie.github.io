@@ -14,7 +14,6 @@ func myFunction(reader io.Reader){
 You can not send a pointer to the interface from another function:
 {% highlight go %}
 func myOtherFunction(reader io.Reader){
-// your implementation here
 myFunction(&reader) // <-- This is illegal.
 }
 {% endhighlight %}
