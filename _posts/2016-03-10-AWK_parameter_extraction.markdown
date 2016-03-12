@@ -9,3 +9,14 @@ Today I learned that if you want to extract the nth column with awk you simply r
 {% highlight bash %}
 awk -v x=n "{print $x}"
 {% endhighlight %}
+
+**Update**
+[Johan Jensen][johan] made me aware that you can do this even simpler
+
+{% highlight bash %}
+awk "{print $2}"
+{% endhighlight %}
+
+
+[johan]: https://twitter.com/johankj
+
