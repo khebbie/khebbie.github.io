@@ -9,3 +9,6 @@ The following script can do this.
 {% highlight bash %}
 netstat -tulpn
 {% endhighlight %}
+
+I found this tip on  :
+http://www.cyberciti.biz/faq/what-process-has-open-linux-port/
