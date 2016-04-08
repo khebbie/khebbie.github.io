@@ -13,3 +13,18 @@ The github repo I used was: https://github.com/deviantony/docker-elk
 All I had to do was run `docker compose up -d` and I had a working elk stack.
 
 I then grabbed the files from aws and netcat'ed them to the elk inside the docker container `nc localhost 5000 < a5637c92bfc6-stdouterr.log`
+
+I made a small script to netcat all log files in a directory 
+
+{% highlight bash %}
+#!/bin/bash
+for f in *.log
+do
+ echo "Processing $f"
+ # do something on $f
+ nc localhost 5000 < $f
+done
+
+{% endhighlight %}
+
+
