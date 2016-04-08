@@ -28,3 +28,8 @@ done
 {% endhighlight %}
 
 
+
+I BTW add a small configuration change to the 'logstash/config/logstash.conf' file.
+In the 'input' group I add `codec => "json"` since I import json.
+
+
