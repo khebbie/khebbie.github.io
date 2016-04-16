@@ -1,6 +1,6 @@
 ---
 layout: post
-title: grep current directory'
+title: grep current directory
 ---
 I can never remember how to grep the current directory.
 
