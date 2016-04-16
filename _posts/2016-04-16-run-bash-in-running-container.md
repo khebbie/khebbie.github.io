@@ -7,4 +7,4 @@ To attach to a running container named `running_container` run the following com
 
 {% highlight bash %}
 sudo docker exec -i -t running_container bash
-{% endhightlight %}
+{% endhighlight %}
