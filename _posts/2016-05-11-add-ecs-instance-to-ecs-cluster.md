@@ -7,8 +7,7 @@ If you need to add an ec instance to a ECS cluster, you can run the following co
 
 {% highlight bash %}
 #!/bin/bash
-yum install -y aws-cli
-aws s3 cp s3://your_bucket_name/ecs.config /etc/ecs/ecs.config
+echo ECS_CLUSTER=your_cluster_name >> /etc/ecs/ecs.config
 
 {% endhighlight%}
 
