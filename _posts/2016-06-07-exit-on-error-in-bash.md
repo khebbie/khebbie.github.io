@@ -1,6 +1,6 @@
 ---
 layout: post
-title: exit on error in bash'
+title: exit on error in bash
 ---
 
 I have often cluttered my bash scripts with :
