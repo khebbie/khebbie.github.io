@@ -9,4 +9,4 @@ Maybe one could do some automatic clean up of images older than a certain number
 
 {% highlight bash %}
 docker images | grep 'sales.* weeks ago' | awk {'printf ("%s:%s\n", $1, $2)'} |  xargs --no-run-if-empty docker rmi
-{% endhightlight %}
+{% endhighlight%}
