@@ -10,4 +10,4 @@ To give an example, here is a scala container.
 #!/bin/bash
 docker run -p 9001:9000 --name scala-dev --link datbase-container -v $(pwd):/tmp/src -it khebbie/scala-sbt /bin/bash
 
-{% endhightlight %}
+{% endhighlight %}
