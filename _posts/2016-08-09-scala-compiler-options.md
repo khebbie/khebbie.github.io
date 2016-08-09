@@ -4,7 +4,7 @@ title: scala compiler options
 ---
 
 The scala compiler has some useful flags, that can do some linting on unused variables, imports etc.
-{% hightlight scala%}
+{% highlight scala%}
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "UTF-8", "-Xfatal-warnings", "-Xlint:missing-interpolator", "-Ywarn-unused", "-Ywarn-dead-code", "-Ywarn-numeric-widen")
 {% endhighlight %}
 
