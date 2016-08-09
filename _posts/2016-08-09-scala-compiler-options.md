@@ -8,5 +8,5 @@ The scala compiler has some useful flags, that can do some linting on unused var
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "UTF-8", "-Xfatal-warnings", "-Xlint:missing-interpolator", "-Ywarn-unused", "-Ywarn-dead-code", "-Ywarn-numeric-widen")
 {% endhighlight %}
 
-I found these flags on this very usefull blog post:
-http://pedrorijo.com/blog/scala-compiler-review-code-warnings/
+I found these flags on this very usefull blog post:  
+[scala compiler review code warnings](pedrorijo.com/blog/scala-compiler-review-code-warnings/)
