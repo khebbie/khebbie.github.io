@@ -10,7 +10,7 @@ The ops side and the devs side.
 
 # Dev
 
-* a pod is like a task definition, in that it defines one or more containers, a pod can be restricted in its resource use.
+* a pod is like a task definition, in that it defines one or more containers, a pod can be restricted in its resource use. Pods can communicate with each other like they are on localhost
 * a replica set should mostly not be used directly but is used by deployments to scale the number of pods up and down.
 * a deployment is a declarative way to tell kubernetes how you want the world to look like, the deployment controller will then make it happen
 * a service is a way to expose the pods in a deployment to the world outside kubernetes. you can think of it a bit like a load balancer, that hides the excact location of the downstream websites
