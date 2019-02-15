@@ -6,4 +6,4 @@ Sometimes a picture says more that a thousand words, and explaining variance in 
 
 ![Variance in scala](/assets/variance.jpg)
 
-What I am trying to explain is https://docs.scala-lang.org/tour/variances.html
+What I am trying to explain is [https://docs.scala-lang.org/tour/variances.html](https://docs.scala-lang.org/tour/variances.html)
