@@ -14,7 +14,22 @@ We have, at least, 3 routes we can go:
 
 So how does one go about deciding here, I have a method that, at least to me, is a help:
 
-{:class="table table-bordered"}
+<style>
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #ff0000;
+}
+
+th{
+    border:2px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
+}
+</style>
+
 | solution       | cost now | cost on every iteration | technical risk | business risk |
 |----------------|----------|-------------------------|----------------|---------------|
 | terraform      | 9        | 2                       | 1              | 6             |
