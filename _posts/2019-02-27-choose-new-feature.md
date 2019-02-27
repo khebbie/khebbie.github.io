@@ -13,6 +13,7 @@ We have, at least, 3 routes we can go:
 3. Use something like cloudformer to generate a cloudformation script for this piece of infrastructure. This way we still have infrastructure as code, but not in the company standard tool - terraform
 
 So how does one go about deciding here, I have a method that, at least to me, is a help:
+
 | solution | cost now | cost on every iteration | technical risk | business risk |
 |----------|----------|-------------------------|----------------|---------------|
 | terraform | 9        | 2                       | 1              | 6             |
