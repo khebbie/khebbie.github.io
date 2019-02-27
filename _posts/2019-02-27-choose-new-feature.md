@@ -14,11 +14,12 @@ We have, at least, 3 routes we can go:
 
 So how does one go about deciding here, I have a method that, at least to me, is a help:
 
-| solution | cost now | cost on every iteration | technical risk | business risk |
-|----------|----------|-------------------------|----------------|---------------|
-| terraform | 9        | 2                       | 1              | 6             |
-| manual   | 2        | 3                       | 9              | 2             |
-| cloudformation | 4  | 4                       | 2              | 3             |
+{:class="table table-bordered"}
+| solution       | cost now | cost on every iteration | technical risk | business risk |
+|----------------|----------|-------------------------|----------------|---------------|
+| terraform      | 9        | 2                       | 1              | 6             |
+| manual         | 2        | 3                       | 9              | 2             |
+| cloudformation | 4        | 4                       | 2              | 3             |
 
 
 So what does each of these mean?   
